@@ -1,0 +1,617 @@
+// Coil input
+co,  0,
+co,  1,Clear Waveform
+co,  2,Clear Eventlog
+co,  3,Reset Parameter
+co,  4,
+co,  5,
+co,  6,
+co,  7,
+co,  8,
+co,  9,
+co, 10,Dbg_Toggle DD PWM Enable
+co, 11,Dbg_Toggle BalcLeg PWM Enable
+co, 12,Dbg_DD relay ON
+co, 13,Dbg_DD relay OFF
+co, 14,Force DSP Reset
+co, 15,
+co, 16,Enable Debug Mode
+co, 17,
+co, 18,Force Charger On
+co, 19,
+co, 20,
+co, 21,Dbg_BalcLegCtrl
+co, 22,
+co, 23,
+co, 24,
+co, 25,
+co, 26,
+co, 27,
+co, 28,Unlock Calibration
+co, 29,Enable GPIO Test
+co, 30,
+co, 31,Dbg_D2D
+
+// Discrete input
+
+// Holding register
+hr,  0, NVM Parameter Password
+hr,  1,Cali - D2D Charger Volt RP
+hr,  2,Cali - D2D Charger Volt RN
+hr,  3,Cali - D2D Charger Volt SP
+hr,  4,Cali - D2D Charger Volt SN
+hr,  5,Cali - D2D Charger Volt TP
+hr,  6,Cali - D2D Charger Volt TN
+hr,  7,Cali - D2D Thermal 1
+hr,  8,Cali - D2D Thermal 2
+hr,  9,Cali - D2D Thermal 3
+hr, 10,Cali - D2D Thermal 4
+hr, 11,Cali - D2D Thermal 5
+hr, 12,Cali - D2D Thermal 6
+hr, 13,Cali - Balance IGBT Thermal 1
+hr, 14,Cali - Balance IGBT Thermal 2
+hr, 15,Cali - Batt Volt
+hr, 16,Cali - Average Charger Current
+hr, 17,
+hr, 18,Cali - DC Bus Volt P
+hr, 19,Cali - DC Bus Volt N
+hr, 20,Cali - Balance Choke Curr 180
+hr, 21,Cali - Balance Choke Curr 0
+hr, 22,Cali - Charger Choke Curr R1P
+hr, 23,Cali - DD Choke Curr R1P
+hr, 24,Cali - Charger Choke Curr R2P
+hr, 25,Cali - DD Choke Curr R2P
+hr, 26,Cali - Charger Choke Curr R1N
+hr, 27,Cali - DD Choke Curr R1N
+hr, 28,Cali - Charger Choke Curr R2N
+hr, 29,Cali - DD Choke Curr R2N
+hr, 30,Cali - Charger Choke Curr S1P
+hr, 31,Cali - DD Choke Curr S1P
+hr, 32,Cali - Charger Choke Curr S2P
+hr, 33,Cali - DD Choke Curr S2P
+hr, 34,Cali - Charger Choke Curr S1N
+hr, 35,Cali - DD Choke Curr S1N
+hr, 36,Cali - Charger Choke Curr S2N
+hr, 37,Cali - DD Choke Curr S2N
+hr, 38,Cali - Charger Choke Curr T1P
+hr, 39,Cali - DD Choke Curr T1P
+hr, 40,Cali - Charger Choke Curr T2P
+hr, 41,Cali - DD Choke Curr T2P
+hr, 42,Cali - Charger Choke Curr T1N
+hr, 43,Cali - DD Choke Curr T1N
+hr, 44,Cali - Charger Choke Curr T2N
+hr, 45,Cali - DD Choke Curr T2N
+hr, 46,Cali - Balance Leg Bus Volt P
+hr, 47,Cali - Balance Leg Bus Volt N
+hr, 48,Rsv
+hr, 49,Rsv
+hr, 50,Rsv
+hr, 51,Rsv
+hr, 52,Rsv
+hr, 53,Rsv
+hr, 54,Rsv
+hr, 55,Rsv
+hr, 56,Rsv
+hr, 57,Rsv
+hr, 58,Rsv
+hr, 59,Rsv
+hr, 60,Serial Number - 0
+hr, 61,Serial Number - 1
+hr, 62,Serial Number - 2
+hr, 63,Serial Number - 3
+hr, 64,Serial Number - 4
+hr, 65,Serial Number - 5
+hr, 66,Serial Number - 6
+hr, 67,Rsv
+hr, 68,Rsv
+hr, 69,Rsv
+hr, 70,Rsv
+hr, 71,Rsv
+hr, 72,Rsv
+hr, 73,Rsv
+hr, 74,Rsv
+hr, 75,Rsv
+hr, 76,Rsv
+hr, 77,Rsv
+hr, 78,Rsv
+hr, 79,Rsv
+hr, 80,Rsv
+hr, 81,Rsv
+hr, 82,Rsv
+hr, 83,Rsv
+hr, 84,Rsv
+hr, 85,Rsv
+hr, 86,Rsv
+hr, 87,Rsv
+hr, 88,Rsv
+hr, 89,Rsv
+hr, 90,Rsv
+hr, 91,Rsv
+hr, 92,Rsv
+hr, 93,Rsv
+hr, 94,Rsv
+hr, 95,Rsv
+hr, 96,Rsv
+hr, 97,Rsv
+hr, 98,Rsv
+hr, 99,Rsv
+hr,100,Rsv
+hr,101,Rsv
+hr,102,Rsv
+hr,103,Rsv
+hr,104,Rsv
+hr,105,Rsv
+hr,106,Rsv
+hr,107,Rsv
+hr,108,Rsv
+hr,109,Rsv
+hr,110,Rsv
+hr,111,Rsv
+hr,112,Rsv
+hr,113,Rsv
+hr,114,Rsv
+hr,115,Rsv
+hr,116,Rsv
+hr,117,Rsv
+hr,118,Rsv
+hr,119,Rsv
+hr,120,Rsv
+hr,121,Rsv
+hr,122,Rsv
+hr,123,Rsv
+hr,124,Rsv
+hr,125,Rsv
+hr,126,Rsv
+hr,127,Rsv
+hr,128,Rsv
+hr,129,Rsv
+hr,130,Rsv
+hr,131,Rsv
+hr,132,Rsv
+hr,133,Rsv
+hr,134,Rsv
+hr,135,Rsv
+hr,136,Rsv
+hr,137,Rsv
+hr,138,Rsv
+hr,139,Rsv
+hr,140,Rsv
+hr,141,Rsv
+hr,142,Rsv
+hr,143,Rsv
+hr,144,Rsv
+hr,145,Rsv
+hr,146,Rsv
+hr,147,Rsv
+hr,148,Rsv
+hr,149,Rsv
+hr,150,Rsv
+hr,151,Rsv
+hr,152,Rsv
+hr,153,Rsv
+hr,154,Rsv
+hr,155,Rsv
+hr,156,Rsv
+hr,157,Rsv
+hr,158,Rsv
+hr,159,Rsv
+hr,160,Rsv
+hr,161,Rsv
+hr,162,Rsv
+hr,163,Rsv
+hr,164,Rsv
+hr,165,Rsv
+hr,166,Rsv
+hr,167,Rsv
+hr,168,Rsv
+hr,169,Rsv
+hr,170,Rsv
+hr,171,Rsv
+hr,172,Rsv
+hr,173,Rsv
+hr,174,Rsv
+hr,175,Rsv
+hr,176,Rsv
+hr,177,Rsv
+hr,178,Rsv
+hr,179,Rsv
+hr,180,Rsv
+hr,181,Rsv
+hr,182,Rsv
+hr,183,Rsv
+hr,184,Rsv
+hr,185,Rsv
+hr,186,Rsv
+hr,187,Rsv
+hr,188,Rsv
+hr,189,Rsv
+hr,190,Rsv
+hr,191,Rsv
+hr,192,Rsv
+hr,193,Rsv
+hr,194,Rsv
+hr,195,Rsv
+hr,196,Rsv
+hr,197,Rsv
+hr,198,Rsv
+hr,199,Rsv
+hr,200,Rsv
+hr,201,Rsv
+hr,202,Rsv
+hr,203,Rsv
+hr,204,Rsv
+hr,205,Rsv
+hr,206,Rsv
+hr,207,Rsv
+hr,208,Rsv
+hr,209,Rsv
+hr,210,Rsv
+hr,211,Rsv
+hr,212,Rsv
+hr,213,Rsv
+hr,214,Rsv
+hr,215,Rsv
+hr,216,Rsv
+hr,217,Rsv
+hr,218,Rsv
+hr,219,Rsv
+hr,220,Rsv
+hr,221,Rsv
+hr,222,Rsv
+hr,223,Rsv
+hr,224,Rsv
+hr,225,Rsv
+hr,226,Rsv
+hr,227,Rsv
+hr,228,Rsv
+hr,229,Rsv
+hr,230,Rsv
+hr,231,Rsv
+hr,232,Rsv
+hr,233,Rsv
+hr,234,Rsv
+hr,235,Rsv
+hr,236,Rsv
+hr,237,Rsv
+hr,238,Rsv
+hr,239,Rsv
+hr,240,Rsv
+hr,241,Rsv
+hr,242,Rsv
+hr,243,Rsv
+hr,244,Rsv
+hr,245,Rsv
+hr,246,Rsv
+hr,247,Rsv
+hr,248,Rsv
+hr,249,Rsv
+hr,250,Rsv
+hr,251,Rsv
+hr,252,Rsv
+hr,253,Rsv
+hr,254,Waveform logging record
+hr,255,NVM Map Version
+hr,256,Rsv
+hr,257,Rsv
+hr,258,Rsv
+hr,259,Rsv
+hr,260,Rsv
+hr,261,Rsv
+hr,262,Rsv
+hr,263,Rsv
+hr,264,Rsv
+hr,265,Rsv
+hr,266,Rsv
+hr,267,Rsv
+hr,268,Rsv
+hr,269,Rsv
+hr,270,Rsv
+hr,271,Rsv
+hr,272,Rsv
+hr,273,Rsv
+hr,274,Rsv
+hr,275,Cali Target -  D2D Charger Volt RP
+hr,276,Cali Target -  D2D Charger Volt RN
+hr,277,Cali Target -  D2D Charger Volt SP
+hr,278,Cali Target -  D2D Charger Volt SN
+hr,279,Cali Target -  D2D Charger Volt TP
+hr,280,Cali Target -  D2D Charger Volt TN
+hr,281,Cali Target - D2D Thermal 1
+hr,282,Cali Target - D2D Thermal 2
+hr,283,Cali Target - D2D Thermal 3
+hr,284,Cali Target - D2D Thermal 4
+hr,285,Cali Target - D2D Thermal 5
+hr,286,Cali Target - D2D Thermal 6
+hr,287,Cali Target - Balc Thermal 1
+hr,288,Cali Target - Balc Thermal 2
+hr,289,Cali Target - TotalBattVolt
+hr,290,Cali Target - Charger Avg Current
+hr,291,
+hr,292,Cali Target - DC BusVolt P
+hr,293,Cali Target - DC BusVolt N
+hr,294,Cali Target - Balc Choke Curr 0
+hr,295,Cali Target - Balc Choke Curr 180
+hr,296,Cali Target - D2D Choke Curr R1P
+hr,297,Cali Target - D2D Choke Curr R1N
+hr,298,Cali Target - D2D Choke Curr R2P
+hr,299,Cali Target - D2D Choke Curr R2N
+hr,300,Cali Target - D2D Choke Curr S1P
+hr,301,Cali Target - D2D Choke Curr S1N
+hr,302,Cali Target - D2D Choke Curr S2P
+hr,303,Cali Target - D2D Choke Curr S2N
+hr,304,Cali Target - D2D Choke Curr T1P
+hr,305,Cali Target - D2D Choke Curr T1N
+hr,306,Cali Target - D2D Choke Curr T2P
+hr,307,Cali Target - D2D Choke Curr T2N
+hr,308,Cali Target - Chg Choke Curr R1P
+hr,309,Cali Target - Chg Choke Curr R1N
+hr,310,Cali Target - Chg Choke Curr R2P
+hr,311,Cali Target - Chg Choke Curr R2N
+hr,312,Cali Target - Chg Choke Curr S1P
+hr,313,Cali Target - Chg Choke Curr S1N
+hr,314,Cali Target - Chg Choke Curr S2P
+hr,315,Cali Target - Chg Choke Curr S2N
+hr,316,Cali Target - Chg Choke Curr T1P
+hr,317,Cali Target - Chg Choke Curr T1N
+hr,318,Cali Target - Chg Choke Curr T2P
+hr,319,Cali Target - Chg Choke Curr T2N
+hr,320,Cali Target - Balc Leg BusVolt P
+hr,321,Cali Target - Balc Leg BusVolt N
+
+// Input register
+ir,  0, ADC - Chareger Volt RP
+ir,  1, ADC - Chareger Volt RN
+ir,  2, ADC - Chareger Volt SP
+ir,  3, ADC - Chareger Volt SN
+ir,  4, ADC - Chareger Volt TP
+ir,  5, ADC - Chareger Volt TN
+ir,  6, ADC - D2DChokeCurr R1P
+ir,  7, ADC - D2DChokeCurr R1N
+ir,  8, ADC - D2DChokeCurr R2P
+ir,  9, ADC - D2DChokeCurr R2N
+ir, 10, ADC - D2DChokeCurr S1P
+ir, 11, ADC - D2DChokeCurr S1N
+ir, 12, ADC - D2DChokeCurr S2P
+ir, 13, ADC - D2DChokeCurr S2N
+ir, 14, ADC - D2DChokeCurr T1P
+ir, 15, ADC - D2DChokeCurr T1N
+ir, 16, ADC - D2DChokeCurr T2P
+ir, 17, ADC - D2DChokeCurr T2N
+ir, 18, ADC - Charger Choke Curr R1P
+ir, 19, ADC - Charger Choke Curr R1N
+ir, 20, ADC - Charger Choke Curr R2P
+ir, 21, ADC - Charger Choke Curr R2N
+ir, 22, ADC - Charger Choke Curr S1P
+ir, 23, ADC - Charger Choke Curr S1N
+ir, 24, ADC - Charger Choke Curr S2P
+ir, 25, ADC - Charger Choke Curr S2N
+ir, 26, ADC - Charger Choke Curr T1P
+ir, 27, ADC - Charger Choke Curr T1N
+ir, 28, ADC - Charger Choke Curr T2P
+ir, 29, ADC - Charger Choke Curr T2N
+ir, 30, ADC - BatTotalVolt
+ir, 31, ADC - Charger Avg Current
+ir, 32, 
+ir, 33, ADC - D2D Thermal 1
+ir, 34, ADC - D2D Thermal 2
+ir, 35, ADC - D2D Thermal 3
+ir, 36, ADC - D2D Thermal 4
+ir, 37, ADC - D2D Thermal 5
+ir, 38, ADC - D2D Thermal 6
+ir, 39, ADC - BalcIGBTThermal 1
+ir, 40, ADC - BalcIGBTThermal 2
+ir, 41, ADC - DCBusVolt P
+ir, 42, ADC - DCBusVolt N
+ir, 43, ADC - BalcChokeCurr 0
+ir, 44, ADC - BalcChokeCurr 180
+ir, 45, ADC - BalcDCBusVolt P
+ir, 46, ADC - BalcDCBusVolt N
+ir, 47, AVG - Charger VoltRP
+ir, 48, AVG - Charger VoltRN
+ir, 49, AVG - Charger VoltSP
+ir, 50, AVG - Charger VoltSN
+ir, 51, AVG - Charger VoltTP
+ir, 52, AVG - Charger VoltTN
+ir, 53, AVG - D2D Choke Curr  R1P
+ir, 54, AVG - D2D Choke Curr  R1N
+ir, 55, AVG - D2D Choke Curr  R2P
+ir, 56, AVG - D2D Choke Curr  R2N
+ir, 57, AVG - D2D Choke Curr  S1P
+ir, 58, AVG - D2D Choke Curr  S1N
+ir, 59, AVG - D2D Choke Curr  S2P
+ir, 60, AVG - D2D Choke Curr  S2N
+ir, 61, AVG - D2D Choke Curr  T1P
+ir, 62, AVG - D2D Choke Curr  T1N
+ir, 63, AVG - D2D Choke Curr  T2P
+ir, 64, AVG - D2D Choke Curr  T2N
+ir, 65, Charger Choke Curr x10 R1P
+ir, 66, Charger Choke Curr x10 R1N
+ir, 67, Charger Choke Curr x10 R2P
+ir, 68, Charger Choke Curr x10 R2N
+ir, 69, Charger Choke Curr x10 S1P
+ir, 70, Charger Choke Curr x10 S1N
+ir, 71, Charger Choke Curr x10 S2P
+ir, 72, Charger Choke Curr x10 S2N
+ir, 73, Charger Choke Curr x10 T1P
+ir, 74, Charger Choke Curr x10 T1N
+ir, 75, Charger Choke Curr x10 T2P
+ir, 76, Charger Choke Curr x10 T2N
+ir, 77, AVG - Total Batt Volt
+ir, 78, AVG - Charger Avg Current
+ir, 79, AVG - DD Discharge Avg Current
+ir, 80, D2D IGBT Thermal1
+ir, 81, D2D IGBT Thermal2
+ir, 82, D2D IGBT Thermal3
+ir, 83, D2D IGBT Thermal4
+ir, 84, D2D IGBT Thermal5
+ir, 85, D2D IGBT Thermal6
+ir, 86, BALC1 IGBT Thermal
+ir, 87, BALC2 IGBT Thermal
+ir, 88, AVG - DC Bus Volt P
+ir, 89, AVG - DC Bus Volt N
+ir, 90, AVG - Balc Choke Curr 0
+ir, 91, AVG - Balc Choke Curr 180
+ir, 92, 
+ir, 93, AVG - Balc DC Bus Volt P
+ir, 94, AVG - Balc DC Bus Volt N
+ir, 95,
+ir, 96, MbusSCI_RegErrCnt
+ir, 97, Mbus_CRCErrCnt
+ir, 98, LclBusSCIB_RegErrCnt
+ir, 99, LclBusPFC_CRCErrCnt
+ir,100, MonCAN_RegErrCnt
+ir,101, LclCAN_RegErrCnt
+ir,102,
+ir,103, ChokeCurrPct_Total
+ir,104, ChokeCurrPct_R
+ir,105, ChokeCurrPct_S
+ir,106, ChokeCurrPct_T
+ir,107,Module Definition
+ir,108,DSP CPU1 FW Version [0]
+ir,109,DSP CPU1 FW Version [1]
+ir,110,DSP CPU1 FW Version [2]
+ir,111,DSP CPU1 FW Version [3]
+ir,112,DSP CPU1 FW Version [4]
+ir,113,DSP CPU1 FW Version [5]
+ir,114,DSP CPU1 FW Version [6]
+ir,115,DSP CPU1 FW Version [7]
+ir,116,DSP CPU1 FW Version [8]
+ir,117,DSP CPU1 FW Version [9]
+ir,118,DSP CPU2 FW Version [0]
+ir,119,DSP CPU2 FW Version [1]
+ir,120,DSP CPU2 FW Version [2]
+ir,121,DSP CPU2 FW Version [3]
+ir,122,DSP CPU2 FW Version [4]
+ir,123,DSP CPU2 FW Version [5]
+ir,124,DSP CPU2 FW Version [6]
+ir,125,DSP CPU2 FW Version [7]
+ir,126,DSP CPU2 FW Version [8]
+ir,127,DSP CPU2 FW Version [9]
+ir,128,FPGA FW Version [0]
+ir,129,FPGA FW Version [1]
+ir,130,FPGA FW Version [2]
+ir,131,FPGA FW Version [3]
+ir,132,FPGA FW Version [4]
+ir,133,FPGA FW Version [5]
+ir,134,FPGA FW Version [6]
+ir,135,FPGA FW Version [7]
+ir,136,FPGA FW Version [8]
+ir,137,FPGA FW Version [9]
+ir,138,
+ir,139, D2D Adapter State
+ir,140, D2D DSP Behavior
+ir,141, Charger Status
+ir,142, Circuitry Status
+ir,143, Communication Status
+ir,144, NTC Thermistor Statuus
+ir,145, 
+ir,146, Component Status
+ir,147, DC Bus Status
+ir,148, D2D Thermal Status
+ir,149,
+ir,150,
+ir,151,
+ir,152,
+ir,153,
+ir,154,
+ir,155, DD boost cmd
+ir,156, CHG cmd
+ir,157, Balance leg cmd
+ir,158, CPU2 ctrl sts
+ir,159, DD report PFC Keep Alive State
+ir,160, CHG Fault Diag
+ir,161, DD relay sts
+ir,162, Peer Device Monitor CAN OK
+ir,163,
+ir,164,
+ir,165,
+ir,166,
+ir,167,
+ir,168,
+ir,169,CPU1 MaxRunTime_Main(us)
+ir,170,CPU1 MaxRunTime_ISR(us)
+ir,171,CPU2 MaxRunTime_Main(0.1us)
+ir,172,CPU2 MaxRunTime_ISR(0.1us)
+ir,173,CLA MaxRunTime_Taks1(10ns)
+ir,174,C2Dbg[3] Boost cmd
+ir,175,C2Dbg[4] Buck cmd
+ir,176,C2Dbg[5] Balc cmd
+ir,177,C2Dbg[6] DD PWM enable
+ir,178,C2Dbg[7] Balance PWM enable
+ir,179,C2Dbg[8] DD relay
+ir,180,C2Dbg[9] Bus ref
+ir,181,C2Dbg[10]
+ir,182,C2Dbg[11] 
+ir,183,C2Dbg[12] 
+ir,184,C2Dbg[13] Facade cmd
+ir,185,C2Dbg[14] CLA_DD cmd
+ir,186,C2Dbg[15] CLA_DD type
+ir,187,C2Dbg[16] 
+ir,188,C2Dbg[17] Vchg LPF (unit:1V)
+ir,189,C2Dbg[18] CHG volt cmd
+ir,190,C2Dbg[19] CHG curr cmd
+ir,191,C2Dbg[20] 
+ir,192,C2Dbg[21] 
+ir,193,C2Dbg[22] 
+ir,194,C2Dbg[23] 
+ir,195,C2Dbg[24] 
+ir,196,C2Dbg[25] 
+ir,197,C2Dbg[26] 
+ir,198,C2Dbg[27] 
+ir,199,C2Dbg[28]
+ir,200,C2Dbg[29] 
+ir,201,C2Dbg[30] 
+ir,202,C2Dbg[31] 
+ir,203,C2Dbg[32] 
+ir,204,C2Dbg[33] 
+ir,205,C2Dbg[34] 
+ir,206,C2Dbg[35] 
+ir,207,C2Dbg[36] 
+ir,208,C2Dbg[37] 
+ir,209,C2Dbg[38] 
+ir,210,C2Dbg[39] 
+ir,211,C2Dbg[40] 
+ir,212,C2Dbg[41] 
+ir,213,C2Dbg[42] 
+ir,214,C2Dbg[43] 
+ir,215,C2Dbg[44] 
+ir,216,C2Dbg[45] 
+ir,217,C2Dbg[46] 
+ir,218,C2Dbg[47] 
+ir,219,C2Dbg[48] 
+ir,220,C2Dbg[49] 
+ir,221,C2Dbg[50] 
+ir,222,C2Dbg[51] 
+ir,223,C2Dbg[52] 
+ir,224,C2Dbg[53] 
+ir,225,C2Dbg[54]
+ir,226,C2Dbg[55] 
+ir,227,C2Dbg[56] 
+ir,228,C2Dbg[57] Pwr freq update flag
+ir,229,C2Dbg[58] Pwr freq. (unit:0.1Hz)
+ir,230,C2Dbg[59] Thetastep
+ir,231,C2Dbg[60] 
+ir,232,C2Dbg[61] 
+ir,233,C2Dbg[62] 
+ir,234,C2Dbg[63] 
+ir,235,
+ir,236,
+ir,237,
+ir,238,
+ir,239,
+ir,240,GPIO A Bitmap [0]
+ir,241,GPIO A Bitmap [1]
+ir,242,GPIO B Bitmap [0]
+ir,243,GPIO B Bitmap [1]
+ir,244,GPIO C Bitmap [0]
+ir,245,GPIO C Bitmap [1]
+ir,246,GPIO D Bitmap [0]
+ir,247,GPIO D Bitmap [1]
+ir,248,GPIO E Bitmap [0]
+ir,249,GPIO E Bitmap [1]
+ir,250,GPIO F Bitmap [0]
+ir,251,GPIO F Bitmap [1]
+ir,252,
+ir,253,
+ir,254,
+ir,255,

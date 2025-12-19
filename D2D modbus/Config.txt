@@ -1,0 +1,3 @@
+RTU: 8
+Baudrate: 57600
+Device ID: 8*n+2 , (n >= 1)

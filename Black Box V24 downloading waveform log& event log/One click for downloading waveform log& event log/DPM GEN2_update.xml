@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<UpsSeriesDownloadLogSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaudRate>57600</BaudRate>
+  <TriedCount>3</TriedCount>
+  <Timeout>100</Timeout>
+  <EachReadEventCount>10</EachReadEventCount>
+  <EachReadWaveformAddressCount>64</EachReadWaveformAddressCount>
+  <RemovedEchoEnabled>true</RemovedEchoEnabled>
+  <RtsEnabled>false</RtsEnabled>
+  <DtrEnabled>false</DtrEnabled>
+  <Parity>None</Parity>
+  <Devices>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>1</unsignedByte>
+      </Ids>
+	  <Name>System event &amp; waveform logs (ID 1)</Name>
+    </UpsDevice>
+    <UpsDevice>
+      <Ids>
+        <unsignedByte>8</unsignedByte>
+        <unsignedByte>10</unsignedByte>
+		<unsignedByte>12</unsignedByte>
+      </Ids>
+	  <Name>R1 module PFC/DD/INV event &amp; waveform logs (ID 8/10/12)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>16</unsignedByte>
+        <unsignedByte>18</unsignedByte>
+		<unsignedByte>20</unsignedByte>
+      </Ids>
+	  <Name>R2 module PFC/DD/INV event &amp; waveform logs (ID 16/18/20)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>24</unsignedByte>
+        <unsignedByte>26</unsignedByte>
+		<unsignedByte>28</unsignedByte>
+      </Ids>
+	  <Name>R3 module PFC/DD/INV event &amp; waveform logs (ID 24/26/28)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>32</unsignedByte>
+        <unsignedByte>34</unsignedByte>
+		<unsignedByte>36</unsignedByte>
+      </Ids>
+	  <Name>R4 module PFC/DD/INV event &amp; waveform logs (ID 32/34/36)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>40</unsignedByte>
+        <unsignedByte>42</unsignedByte>
+		<unsignedByte>44</unsignedByte>
+      </Ids>
+	  <Name>L1 module PFC/DD/INV event &amp; waveform logs (ID 40/42/44)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>48</unsignedByte>
+        <unsignedByte>50</unsignedByte>
+		<unsignedByte>52</unsignedByte>
+      </Ids>
+	  <Name>L2 module PFC/DD/INV event &amp; waveform logs (ID 48/50/52)</Name>
+    </UpsDevice>
+	<UpsDevice>
+      <Ids>
+        <unsignedByte>56</unsignedByte>
+        <unsignedByte>58</unsignedByte>
+		<unsignedByte>60</unsignedByte>
+      </Ids>
+	  <Name>L3 module PFC/DD/INV event &amp; waveform logs (ID 56/58/60)</Name>
+    </UpsDevice>
+  </Devices>
+</UpsSeriesDownloadLogSetting>
